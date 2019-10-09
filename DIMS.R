@@ -76,7 +76,6 @@ run <- function(xmlfile, src, breaks, trim, dimsThresh, resol, output_file){
   # dir.create(paste(outdir, "pklist", sep="/"),showWarnings = F)
   # dir.create(paste(outdir, "QC", sep="/"),showWarnings = F)
   
-  # if (!file.exists(paste(paste(outdir, "pklist", sep="/"),"/",sampname, ".RData", sep=""))) save(pklist, file=paste(paste(outdir, "pklist", sep="/"),"/", sampname, ".RData", sep=""))
   if (!file.exists(output_file)) {
     save(pklist, file=output_file)
   }
