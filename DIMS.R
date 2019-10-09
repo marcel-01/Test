@@ -29,7 +29,7 @@ run <- function(xmlfile, src, breaks, trim, dimsThresh, resol, output_file){
   # width=1024
   # height=768
   
-  # pwd = "/mnt/data/workingdir"!!!
+  # Here I deleted a line
   
   source(paste(src, "sourceDir.R", sep="/"))
   sourceDir(src)
