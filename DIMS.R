@@ -29,7 +29,8 @@ run <- function(xmlfile, src, breaks, trim, dimsThresh, resol, output_file){
   # width=1024
   # height=768
   
-  # Here I deleted a line
+  # new peakfinding
+  # some more code
   
   source(paste(src, "sourceDir.R", sep="/"))
   sourceDir(src)
