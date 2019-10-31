@@ -8,6 +8,7 @@ run <- function(xmlfile, src, breaks, trim, dimsThresh, resol, output_file){
 # trim=0.1
 # resol=140000
 
+# Blabla bla
 
   # xmlfile = paste(breaks, "data", xmlfile, sep="/")
   
